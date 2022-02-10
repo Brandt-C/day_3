@@ -1,0 +1,33 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1.7fr 0.7fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". icon ."
+      ". box ."
+      ". footer .";
+}
+
+.icon {
+    grid-area: icon; 
+    justify-self: center;
+}
+
+.box {
+    grid-area: box;
+    border: solid 2px rgb(68, 67, 67);
+    border-radius: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.footer li{
+    list-style-type: none;
+    display: inline;
+    
+}

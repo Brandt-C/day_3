@@ -1,0 +1,12 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.row{
+    justify-content: center;
+    text-align: center;
+}
+#box{
+    border: solid 1px rgb(65, 64, 64);
+    border-radius: 10px;
+}
