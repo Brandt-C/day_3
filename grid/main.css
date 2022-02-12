@@ -1,3 +1,10 @@
+/*  keeping this for reference, please see Amazonian file for completed project------------------------------------
+--------------------------------------------------------
+
+* {
+    box-sizing: border-box;
+}
+
 .container {  display: grid;
     grid-template-columns: 1fr 0.8fr 1fr;
     grid-template-rows: 0.5fr 1.7fr 0.7fr;
@@ -17,8 +24,9 @@
 
 .box {
     grid-area: box;
-    border: solid 1px rgb(117, 117, 117);
-    border-radius: 7px;
+    position: relative;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 4px;
     justify-self: center;
     align-items: center;
     width: auto;
@@ -30,6 +38,7 @@
 
 .footer {
     grid-area: footer;
+    align-self: center;
 }
 
 .footer li{

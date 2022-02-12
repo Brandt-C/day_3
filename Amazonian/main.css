@@ -1,5 +1,9 @@
 * {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+html {
+    height: 100%;
+    background-image: radial-gradient(rgb(116, 114, 114) 10%,rgb(214, 214, 214) 10%, white 80%);
 }
 
 .row{
@@ -7,6 +11,68 @@
     text-align: center;
 }
 #box{
-    border: solid 1px rgb(65, 64, 64);
-    border-radius: 10px;
+    border: solid 1px rgb(187, 186, 186);
+    border-radius: 4px;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+#box h1{
+    letter-spacing: 0.05em;
+    text-align: left;
+    font-size: 200%;
+    font-weight: 400;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+.form {
+    text-align: left;
+    font-stretch: extra-expanded;
+    font-weight: 900;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+.form input {
+    width: 100%;
+    
+    margin-bottom: 3%;
+}
+.form button{
+    width: 100%;
+    border-color: rgb(114, 113, 113);
+    background-color: #ffdb6f
+}
+#box p {
+    font-size: 80%;
+}
+#need-help {
+    text-align: left;
+
+}
+#need-help a{
+    text-decoration: none;
+}
+#btm-row {
+    border-bottom: 2px solid darkgray;
+    padding-bottom: 10px;
+}
+#btm-row> div> button {
+    width: 100%;
+    background-color: rgb(235, 233, 233);
+    border-color: grey;
+    font-size: 90%;
+}
+#footer-bit> ul {
+    
+}
+#footer-bit> ul> li {
+    list-style-type: none;
+    display: inline;
+    font-size: 70%;
+    
+}
+#footer-bit> ul> li a{
+    text-decoration: none;
 }
