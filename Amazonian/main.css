@@ -3,7 +3,7 @@
 }
 html {
     height: 100%;
-    background-image: radial-gradient(rgb(116, 114, 114) 10%,rgb(214, 214, 214) 10%, white 80%);
+    background-color: rgb(238, 235, 235);
 }
 
 .row{
@@ -56,7 +56,7 @@ html {
 }
 #btm-row {
     border-bottom: 2px solid darkgray;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
 }
 #btm-row> div> button {
     width: 100%;
@@ -64,15 +64,41 @@ html {
     border-color: grey;
     font-size: 90%;
 }
-#footer-bit> ul {
-    
-}
+
 #footer-bit> ul> li {
     list-style-type: none;
     display: inline;
     font-size: 70%;
+    padding: 10px;
     
 }
 #footer-bit> ul> li a{
     text-decoration: none;
+}
+.container-2 {
+    background: linear-gradient(0deg,rgb(240, 239, 239), rgb(209, 209, 209));
+}
+h6 {
+    overflow: hidden;
+    text-align: center;
+    color: rgb(114, 113, 113);
+    font-size: 90%;
+}
+
+h6:before, h6:after {
+    background-color: rgb(223, 223, 223);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h6:before {
+    right: 00.05em;
+    margin-left: -50%;
+}
+h6:after {
+    left: 0.5em;
+    margin-right: -50%;
 }
